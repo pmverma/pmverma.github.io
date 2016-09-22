@@ -13,3 +13,20 @@ $(function () {
 $('body').scrollspy({
     target: '.navbar-fixed-top'
 })
+
+// Closes the Responsive Menu on Menu Item Click
+$('.navbar-collapse ul li a').click(function () {
+    $('.navbar-toggle:visible').click();
+});
+
+//Nav bar menu toggle control
+$(function () {
+    $(".navbar-expand-toggle").click(function () {
+        $(".app-container").toggleClass("expanded");
+        return $(".navbar-expand-toggle").toggleClass("fa-rotate-90");
+    });
+    return $(".navbar-right-expand-toggle").click(function () {
+        $(".navbar-right").toggleClass("expanded");
+        return $(".navbar-right-expand-toggle").toggleClass("fa-rotate-90");
+    });
+});
