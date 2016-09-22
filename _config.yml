@@ -1,0 +1,21 @@
+safe:        true
+markdown: kramdown
+exclude: [node_modules, bower_components]
+kramdown:
+  input: GFM
+gems:
+  - jekyll-redirect-from
+  - jekyll-seo-tag
+whitelist:
+  - jekyll-redirect-from
+defaults:
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "default"
+title: "Pm Verma"
+description: "Mastering Job Arranger for Zabbix!"
+url: https://mastering-jaz-pmverma1.c9users.io
+logo: https://mastering-jaz.github.io/img/mjaz.png
+author:
+  twitter: pm_verma
