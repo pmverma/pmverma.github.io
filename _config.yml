@@ -3,7 +3,7 @@ markdown: kramdown
 exclude: [node_modules, bower_components]
 kramdown:
   input: GFM
-gems:
+plugins:
   - jekyll-redirect-from
   - jekyll-seo-tag
 whitelist:
@@ -14,5 +14,5 @@ defaults:
     values:
       layout: "default"
 title: "Pm Verma"
-description: "PM Verma's Website"
-url: http://www.pmverma.com
+description: "Software engineer and open-source technology enthusiast."
+url: "https://www.pmverma.com"
