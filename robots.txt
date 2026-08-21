@@ -1,3 +1,3 @@
-# robotstxt.org/
-
 User-agent: *
+Allow: /
+Sitemap: https://www.pmverma.com/sitemap.xml
